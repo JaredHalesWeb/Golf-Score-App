@@ -22,3 +22,7 @@ input {
 #name {
     width: 130px;
 }
+#btn {
+    background-color: lime;
+    width:663px;
+}

@@ -2,3 +2,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+#scorecard {
+    width: 90%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+input {
+    width:40px;
+    text-align: center;
+}
+#name {
+    width: 130px;
+}

@@ -22,6 +22,15 @@ input {
 #name {
     width: 130px;
 }
+#nameP2 {
+    width:130px;
+}
+#nameP3 {
+    width: 130px;
+}
+#nameP4 {
+    width: 130px;
+}
 #btn {
     background-color: lime;
     width:663px;

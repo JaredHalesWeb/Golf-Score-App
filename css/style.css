@@ -1,9 +1,23 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    z-index: 2;
+}
+.bg {
+    background-image: url("../images/golf3.jpg");
+    background-size: cover;
+    background-position: top;
+    filter:blur(5px);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    position: fixed;
 }
 #scorecard {
     width: 90%;
+    max-width: 90%;
+    text-align: center;
+    background-color: white;
 }
 table {
     width: 100%;
@@ -11,7 +25,7 @@ table {
 }
 
 th, td {
-    border: 1px solid black;
+    border: 2px solid black;
     padding: 8px;
     text-align: center;
 }
@@ -32,6 +46,28 @@ input {
     width: 130px;
 }
 #btn {
-    background-color: lime;
+    background-color: rgb(229, 223, 255);
     width:663px;
+    height: 24px;
+}
+.tb-responsive {
+    width: 90%;
+    max-width: 90%;
+    text-align: center;
+    position: relative;
+    left: 5%;
+    top: 150px;
+
+}
+.hole {
+    background-color: rgb(112, 219, 112);
+}
+.out {
+    background-color: rgb(212, 112, 112);
+}
+.in {
+    background-color: rgb(114, 201, 228);
+}
+.total {
+    background-color: rgb(216, 178, 108);
 }
